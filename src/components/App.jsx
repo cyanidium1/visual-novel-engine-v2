@@ -18,7 +18,7 @@ export const App = () => {
   return (
     <div style={gameDim}>
       <Routes>
-        <Route path="/" element={<Menu />} />
+        <Route path="*" element={<Menu />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/game" element={<Game />} />
         <Route path="/about" element={<About />} />

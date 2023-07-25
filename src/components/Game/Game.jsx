@@ -7,6 +7,7 @@ import Button from 'components/Button/Button';
 const Game = () => {
   const [frame, changeFrame] = useState('p0');
   const [history, updHistory] = useState(['p0']);
+
   //   const [history, updHistory] = useState(
   //     () => localStorage.getItem('contacts') ?? ['p0']
   //   );

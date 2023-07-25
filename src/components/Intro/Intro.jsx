@@ -16,14 +16,12 @@ const Intro = () => {
       <div className={s.starWars}>
         <div className={s.crawl}>
           <p className={s.text}>
-            It is a period of civil war. Rebel spaceships, striking from a
-            hidden base, have won their first victory against the evil Galactic
-            Empire. During the battle, Rebel spies managed to steal secret plans
-            to the Empire’s ultimate weapon, the DEATH STAR, an armored space
-            station with enough power to destroy an entire planet. Pursued by
-            the Empire’s sinister agents, Princess Leia races home aboard her
-            starship, custodian of the stolen plans that can save her people and
-            restore freedom to the galaxy….
+            Since childhood you have been lured by the darkness of the metro
+            tunnels. When travelling underground, you have often noticed various
+            branches in the tunnels. Spending hours at the computer you found a
+            lot of information about the capital's underground and decided to
+            move to the active phase of research - to climb into the
+            underground!
           </p>
         </div>
       </div>
