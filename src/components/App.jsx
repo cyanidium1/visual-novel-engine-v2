@@ -1,16 +1,28 @@
+import { Route, Routes } from 'react-router-dom';
+import Menu from './Menu/Menu';
+import bgi from '../images/HYYaTRWrPcw.jpg';
+import About from './About/About';
+import Intro from './Intro/Intro';
+import Game from './Game/Game';
+
 export const App = () => {
+  const gameDim = {
+    width: 800,
+    height: 600,
+    margin: '0 auto',
+    padding: 0,
+    backgroundImage: `url(${bgi})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+  };
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div style={gameDim}>
+      <Routes>
+        <Route path="/" element={<Menu />} />
+        <Route path="/intro" element={<Intro />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 };

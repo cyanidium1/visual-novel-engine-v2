@@ -1,0 +1,22 @@
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.textButtons {
+  position: absolute;
+  background-color: #131313ab;
+  bottom: 0;
+  width: 100%;
+}
+.text {
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}

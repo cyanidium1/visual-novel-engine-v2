@@ -1,0 +1,139 @@
+{
+  "p0": {
+    "p": "You came up to the factory",
+    "b1": "Try to find a way to climb inside",
+    "b2": "Go to main entrance",
+    "b3": "Make a hole in the barbed wire with nippers",
+    "f1": "p1",
+    "f2": "p2",
+    "f3": "p3",
+    "f3possibleIf": "kusam",
+    "bg": "https://media.lajmifundit.al/lajmifundit.al/media3/-1200-630-63013a0432383.png"
+  },
+  "p2": {
+    "p": "You came to the factory entrance. A soldier (homo-ushtarakus) came out to see you. ",
+    "b1": "Fight with him!",
+    "b2": "Try to give him some money for excursion",
+    "b3": "",
+    "f1": "p21",
+    "f2": "p22",
+    "f3": "",
+    "f2possibleIf": "money",
+    "bg": "https://cdnimpuls.com/dosja.al/media3/-800-450-1677915361x22albania-spies-01-cwhq-superjumbo-877.webp"
+  },
+  "p21": {
+    "p": "You set up aggressively, but you haven't shown it yet.",
+    "b1": "Use pepper spray (alb: neuro-parallitic spray)",
+    "b2": "Use your fists",
+    "b3": "Use an adjustable wrench",
+    "f1": "p211",
+    "f2": "p212",
+    "f3": "p213",
+    "f1possibleIf": "kimikspraj"
+  },
+  "p22": {
+    "p": "You hold out your bankroll to the soldier. He smiled and made an inviting gesture.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p221",
+    "f2": "",
+    "f3": ""
+  },
+  "p221": {
+    "p": "You walked into the plant, the head of security treated you to a suflaqe.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p222",
+    "f2": "",
+    "f3": ""
+  },
+  "p222": {
+    "p": "After a delicious lunch, the head of security began the tour. You went into the largest workshop.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p223",
+    "f2": "",
+    "f3": "",
+    "bg": "https://sun9-62.userapi.com/impg/o40rs9Z05Geo5t4MD6AcFQ81YWhi7kpJYT684Q/pwHkhcW62HQ.jpg?size=1280x793&quality=95&sign=6b16a9dce33ad08264e07c33f87ed700&type=album"
+  },
+  "p223": {
+    "p": "You took out your camera, but the security guard forbade taking pictures because the object is supposedly very secret. You got upset and argued that the plant had been abandoned for 100 years, rusted to the ground. The head of the guard said that it only looks abandoned and that in fact there are still workers working in even more secret underground shops.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p224",
+    "f2": "",
+    "f3": "",
+    "bg": "https://sun9-70.userapi.com/impg/TOrDlnuXSA099CreZcLZZ_me6KihStQ0w8UKgA/uVgfTcMfgPY.jpg?size=1280x676&quality=95&sign=a666b19e3297ecdafcf640ae14bd8ac4&type=album"
+  },
+  "p224": {
+    "p": "You left the site without taking a single photo. Your friends don't believe your stories, and your report on urban3p without photos was minused by everyone. You got depressed and committed suicide.",
+    "b1": "",
+    "b2": "",
+    "b3": "",
+    "f1": "",
+    "f2": "",
+    "f3": "",
+    "bg": "https://sun9-27.userapi.com/impg/nEKzBUB7vF1wczcOO5cWtcMw3BZGCdksyy098g/3MydnCJBV9I.jpg?size=640x372&quality=95&sign=f7ad4db20f4366f51b7133c6d60132c5&type=album"
+  },
+  "p1": {
+    "p": "You walked around the grounds and found an old gate. There were few blackberry bushes behind it, but no barbed wire.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p102",
+    "f2": "",
+    "f3": "",
+    "bg": "https://a2news.com/wp-content/uploads/2022/08/uzina-gramsh-ruset-1-1280x720.png"
+  },
+  "p3": {
+    "p": "You made a hole into the grounds exactly opposite the biggest workshop, biting off the barbed wire with wire cutters and climbing over the fence.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p102",
+    "f2": "",
+    "f3": ""
+  },
+  "p102": {
+    "p": "You walked a couple hundred meters and climbed through a broken window into the workshop.",
+    "b1": "Take a walk around",
+    "b2": "Start taking pictures right away",
+    "b3": "",
+    "f1": "p111",
+    "f2": "p112",
+    "f3": "",
+    "bg": "https://sun9-70.userapi.com/impg/TOrDlnuXSA099CreZcLZZ_me6KihStQ0w8UKgA/uVgfTcMfgPY.jpg?size=1280x676&quality=95&sign=a666b19e3297ecdafcf640ae14bd8ac4&type=album"
+  },
+  "p111": {
+    "p": "You walked around and admired the scale of the site, taking some blurry photos on your phone",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p120",
+    "f2": "",
+    "f3": "",
+    "bg": "https://sun9-70.userapi.com/impg/TOrDlnuXSA099CreZcLZZ_me6KihStQ0w8UKgA/uVgfTcMfgPY.jpg?size=1280x676&quality=95&sign=a666b19e3297ecdafcf640ae14bd8ac4&type=album"
+  },
+  "p112": {
+    "p": "You leisurely photographed the shop and took a hundred pictures of rusty machines and gears.",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p120",
+    "f2": "",
+    "f3": ""
+  },
+  "p120": {
+    "p": "There are a lot of closed doors left in the shop. You think there might be something interesting behind them...",
+    "b1": "Next",
+    "b2": "",
+    "b3": "",
+    "f1": "p120",
+    "f2": "",
+    "f3": ""
+  }
+}
