@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/visual-novel-engine-v2/static/css/main.8e29aef3.css",
+    "main.js": "/visual-novel-engine-v2/static/js/main.02b09218.js",
+    "static/media/photo_2023-07-24_23-48-40.jpg": "/visual-novel-engine-v2/static/media/photo_2023-07-24_23-48-40.cc01849bbd8bc5a5a8a5.jpg",
+    "static/media/photo_2023-07-25_03-02-03.jpg": "/visual-novel-engine-v2/static/media/photo_2023-07-25_03-02-03.d175d388c8ea3ab0e71b.jpg",
+    "index.html": "/visual-novel-engine-v2/index.html",
+    "main.8e29aef3.css.map": "/visual-novel-engine-v2/static/css/main.8e29aef3.css.map",
+    "main.02b09218.js.map": "/visual-novel-engine-v2/static/js/main.02b09218.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e29aef3.css",
+    "static/js/main.02b09218.js"
+  ]
+}
