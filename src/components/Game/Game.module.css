@@ -5,6 +5,12 @@
   background-size: cover;
 }
 
+.undo {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 .textButtons {
   position: absolute;
   background-color: #131313ab;
@@ -18,5 +24,5 @@
 }
 .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }

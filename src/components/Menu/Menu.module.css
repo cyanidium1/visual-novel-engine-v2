@@ -1,4 +1,13 @@
 .box {
+  position: relative;
+  height: 100%;
+}
+
+.list {
   margin: 0 auto;
   width: fit-content;
+}
+.cr {
+  position: absolute;
+  bottom: 0;
 }

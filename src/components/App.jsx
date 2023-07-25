@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Menu from './Menu/Menu';
-import bgi from '../images/HYYaTRWrPcw.jpg';
+import bgi from '../images/photo_2023-07-25_03-02-03.jpg';
 import About from './About/About';
 import Intro from './Intro/Intro';
 import Game from './Game/Game';

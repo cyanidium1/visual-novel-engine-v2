@@ -4,8 +4,8 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <StyledLink link={'/'} text={'back'} />
-      <p>About</p>
+      <StyledLink link={'/'} text={'Menu'} />
+      <p>Game was developed using React in 2023 by Cyanidium.</p>
     </div>
   );
 };

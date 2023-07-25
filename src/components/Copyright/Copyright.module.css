@@ -1,0 +1,9 @@
+.box {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 790px;
+}
+.text {
+  color: rgba(255, 255, 255, 0.199);
+}

@@ -7,10 +7,10 @@ const Intro = () => {
     <div className={s.bg}>
       {/* controls */}
       <div className={s.backBtn}>
-        <StyledLink width={'100px'} link={'/'} text={'back'} />
+        <StyledLink width={'100px'} link={'/'} text={'Menu'} />
       </div>
       <div className={s.nextBtn}>
-        <StyledLink width={'100px'} link={'/game'} text={'go!'} />
+        <StyledLink width={'100px'} link={'/game'} text={'Go!'} />
       </div>
       {/* flow text */}
       <div className={s.starWars}>
