@@ -4,7 +4,7 @@ import s from './About.module.css';
 
 const About = () => {
   return (
-    <div>
+    <div className={s.box}>
       <StyledLink link={'/'} text={'Menu'} />
       <p className={s.text}>
         This is a "visual novel" type of game. The player is asked to choose

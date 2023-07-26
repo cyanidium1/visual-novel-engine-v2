@@ -16,7 +16,9 @@ const Game = () => {
 
   const scene = plot[frame];
 
-  console.log(imageList[0]);
+  //   console.log(imageList[0]);
+
+  //localstorage save
   //   const [history, updHistory] = useState(
   //     () => localStorage.getItem('contacts') ?? ['p0']
   //   );
@@ -30,14 +32,12 @@ const Game = () => {
   //   }, [history]);
 
   const bgId = imageList.indexOf(
-    imageList.find(i =>
-      i.includes(`/react-homework-template/static/media/${scene.bg}.`)
-    )
+    imageList.find(i => i.includes(`/static/media/${scene.bg}.`))
   );
 
-  console.log(
-    'bgId:' + bgId + 'imglistbg' + imageList[bgId] + 'scene bg' + scene.bg
-  );
+  //   console.log(
+  //     'bgId:' + bgId + 'imglistbg' + imageList[bgId] + 'scene bg' + scene.bg
+  //   );
 
   function onButtonClick(click) {
     if (click === 'ptryAgain') {
