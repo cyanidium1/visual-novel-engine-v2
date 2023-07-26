@@ -31,7 +31,7 @@
   },
   "p111": {
     "p": "You neglected caution and started down the vertical shaft to the bottom. After 10 minutes, the glare of torches appeared from above - it looked like the police!",
-    "b1": "Go back upstairs.",
+    "b1": "Go back upstairs",
     "b2": "Speed up and try to escape",
     "b3": "",
     "f1": "p1111",
@@ -60,7 +60,7 @@
     "bg": "112"
   },
   "p1112": {
-    "p": "You flashed down the remaining steps and into the approach tunnel to the crossing bypassing the huge 3 meters high sealed doors and fans.",
+    "p": "You flashed down the remaining steps into the approach tunnel to the tracks bypassing the huge doors and fans.",
     "b1": "Next",
     "b2": "",
     "b3": "",
@@ -75,7 +75,7 @@
     "b2": "Run in the opposite direction from the station",
     "b3": "",
     "f1": "p11131",
-    "f2": "p11132",
+    "f2": "p1113213",
     "f3": "",
     "bg": "1113"
   },
@@ -121,10 +121,10 @@
   },
   "p111321": {
     "p": "After watching the trains passing by, you went back down to the tracks. It seemed to you that there were many police officers at the station - they were informed about the recent break-in in the tunnels.",
-    "b1": "Try to sneak out to the station.",
+    "b1": "Try to sneak out to the station",
     "b2": "Run to the next station in the passing direction of train traffic",
     "b3": "Run to the next station on the oncoming train track",
-    "f1": "p11131",
+    "f1": "p111311",
     "f2": "p1113212",
     "f3": "p1113213",
     "bg": "111321"
