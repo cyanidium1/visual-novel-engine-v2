@@ -17,7 +17,7 @@ const Intro = () => {
         <div className={s.crawl}>
           <p className={s.text}>
             Since childhood you have been lured by the darkness of the metro
-            tunnels. When travelling underground, you have often noticed various
+            tunnels. Riding underground on trains you have often noticed various
             branches in the tunnels. Spending hours at the computer you found a
             lot of information about the capital's underground and decided to
             move to the active phase of research - to climb into the
