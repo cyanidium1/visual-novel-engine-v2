@@ -4,6 +4,7 @@ import bgi from '../images/main.jpg';
 import About from './About/About';
 import Intro from './Intro/Intro';
 import Game from './Game/Game';
+import Story from './Story/Story';
 
 export const App = () => {
   const gameDim = {
@@ -22,6 +23,7 @@ export const App = () => {
         <Route path="/intro" element={<Intro />} />
         <Route path="/game" element={<Game />} />
         <Route path="/about" element={<About />} />
+        <Route path="/story" element={<Story />} />
       </Routes>
     </div>
   );

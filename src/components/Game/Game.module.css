@@ -14,7 +14,7 @@
 .moveBtns {
   position: absolute;
   bottom: 40%;
-  left: -16px;
+  left: -18px;
   display: flex;
   flex-direction: column;
 }

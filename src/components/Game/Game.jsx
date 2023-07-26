@@ -3,12 +3,16 @@ import React, { useState } from 'react';
 import plot from '../../data/plot.json';
 import s from './Game.module.css';
 import Button from 'components/Button/Button';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const images = require.context('../../images', true);
 const imageList = images.keys().map(image => images(image));
 
 const Game = () => {
+  //other
   const [height, setHeight] = useState(0);
+  const notify = text => toast(text);
 
   // gameplay
   const [frame, changeFrame] = useState('p0');
@@ -56,7 +60,7 @@ const Game = () => {
       updHistory(history.slice(0, -1));
       return;
     }
-    alert('wanna return up to your birthday?');
+    notify('wanna return up to your birthday?');
   }
   return (
     <div
@@ -70,6 +74,18 @@ const Game = () => {
       }
       className={s.box}
     >
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <StyledLink width={'100px'} link={'/'} text={'Menu'} />
       <div className={s.undo}>
         <Button action={ctrlZ} text={'undo'} />

@@ -16,6 +16,14 @@ const Copyright = () => {
       >
         instagram
       </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        className={s.text}
+        href="https://github.com/cyanidium1/visual-novel-engine-v2"
+      >
+        code
+      </a>
     </div>
   );
 };

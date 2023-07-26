@@ -12,7 +12,7 @@
   "p1": {
     "p": "You made the decision to climb through a ventilation shaft located in a secluded courtyard between panel houses. However, you find out that the door is locked!",
     "b1": "Break the lock on the door and get in!",
-    "b2": "Try to get in through the ventilation grill.",
+    "b2": "Try to get in through the ventilation grill",
     "b3": "Change your mind and try from the station",
     "f1": "p11",
     "f2": "p12",
@@ -22,7 +22,7 @@
   "p11": {
     "p": "You broke the lock on the door with a crowbar and went inside. There was a gaping chasm of several tens of meters beneath your feet. Also you noticed a small white box with a flashing red LED next to the door....",
     "b1": "Start the descent!",
-    "b2": "Wait 30 minutes near the ventilation shaft for the sake of caution.",
+    "b2": "Wait 30 minutes near the ventilation shaft for the sake of caution",
     "b3": "",
     "f1": "p111",
     "f2": "p112",
@@ -32,7 +32,7 @@
   "p111": {
     "p": "You neglected caution and started down the vertical shaft to the bottom. After 10 minutes, the glare of torches appeared from above - it looked like the police!",
     "b1": "Go back upstairs.",
-    "b2": "Speed up and try to escape.",
+    "b2": "Speed up and try to escape",
     "b3": "",
     "f1": "p1111",
     "f2": "p1112",
@@ -71,8 +71,8 @@
   },
   "p1113": {
     "p": "Bypassing the fans you went out into the lane. You could already hear shouting from the side of the ventilation tunnel. What's your move?",
-    "b1": "Run along the tracks towards the station, the lights of which could be seen in the distance",
-    "b2": "Run in the opposite direction from the station.",
+    "b1": "Run along the tracks towards the station, the lights of which could be seen in the distance.",
+    "b2": "Run in the opposite direction from the station",
     "b3": "",
     "f1": "p11131",
     "f2": "p11132",
@@ -82,8 +82,8 @@
   "p11131": {
     "p": "You ran up to the station. There were quite a lot of people on the platform and some metro workers in orange waistcoats.",
     "b1": "Try to climb out onto the platform",
-    "b2": "Enter the service tunnel.",
-    "b3": "Hide behind the wicket and wait for the train to arrive at the station.",
+    "b2": "Enter the service tunnel",
+    "b3": "Hide behind the wicket and wait for the train to arrive at the station",
     "f1": "p11131",
     "f2": "p11132",
     "f3": "p11133",
@@ -122,7 +122,7 @@
   "p111321": {
     "p": "After watching the trains passing by, you went back down to the tracks. It seemed to you that there were many police officers at the station - they were informed about the recent break-in in the tunnels.",
     "b1": "Try to sneak out to the station.",
-    "b2": "Run to the next station in the passing direction of train traffic.",
+    "b2": "Run to the next station in the passing direction of train traffic",
     "b3": "Run to the next station on the oncoming train track",
     "f1": "p11131",
     "f2": "p1113212",
@@ -131,7 +131,7 @@
   },
   "p1113213": {
     "p": "You ran in the oncoming direction of traffic. After a couple of minutes of running, you saw the headlights of an approaching train....",
-    "b1": "Shine a flashlight on the driver so he can see you and stop the train..",
+    "b1": "Shine a flashlight on the driver so he can see you and stop the train",
     "b2": "Try to hook onto the wires on the tunnel wall",
     "b3": "Run away from the train",
     "f1": "p11132131",
@@ -241,7 +241,7 @@
   },
   "p12112": {
     "p": "You decided to go in the direction of the new square tunnels. When you were passing the station, a cleaning lady saw you from far away and shouted something to you. ",
-    "b1": "Walk up to her and pretend to be a worker.",
+    "b1": "Walk up to her and pretend to be a worker",
     "b2": "Start running",
     "b3": "Pretend you didn't hear the call and move on",
     "f1": "p121121",

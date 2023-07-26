@@ -13,6 +13,9 @@ const Menu = () => {
         <li>
           <StyledLink link={'/about'} text={'About'} />
         </li>
+        <li>
+          <StyledLink link={'/story'} text={'Create VN'} />
+        </li>
       </ul>
       <div className={s.cr}>
         <Copyright />

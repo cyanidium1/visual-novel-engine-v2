@@ -6,4 +6,9 @@
 }
 .text {
   color: rgba(255, 255, 255, 0.199);
+  transition: 1s;
+  text-decoration: none;
+}
+.text:hover {
+  color: rgba(255, 255, 255, 0.582);
 }
