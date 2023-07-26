@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/visual-novel-engine-v2/static/css/main.f687000d.css",
-    "main.js": "/visual-novel-engine-v2/static/js/main.04eca1e0.js",
-    "static/media/ben-redblock-loading.gif": "/visual-novel-engine-v2/static/media/ben-redblock-loading.6e2a614018126bd0d04a.gif",
+    "main.css": "/visual-novel-engine-v2/static/css/main.ab119d81.css",
+    "main.js": "/visual-novel-engine-v2/static/js/main.affb62ae.js",
     "static/media/111321331.jpg": "/visual-novel-engine-v2/static/media/111321331.14134fac082b82c4181d.jpg",
     "static/media/1112.jpg": "/visual-novel-engine-v2/static/media/1112.c5594a09c2b9a63cfe77.jpg",
     "static/media/0.jpg": "/visual-novel-engine-v2/static/media/0.be9d03ec9981a2159cd9.jpg",
     "static/media/111321.jpg": "/visual-novel-engine-v2/static/media/111321.727f2f95cd89057419f3.jpg",
     "static/media/11132.jpg": "/visual-novel-engine-v2/static/media/11132.e05977e308f4e9e4e1e4.jpg",
-    "static/media/photo_2023-07-24_23-48-40.jpg": "/visual-novel-engine-v2/static/media/photo_2023-07-24_23-48-40.cc01849bbd8bc5a5a8a5.jpg",
+    "static/media/intro.jpg": "/visual-novel-engine-v2/static/media/intro.cc01849bbd8bc5a5a8a5.jpg",
     "static/media/121123.jpg": "/visual-novel-engine-v2/static/media/121123.956c1a65e568b1b277ed.jpg",
     "static/media/12112.jpg": "/visual-novel-engine-v2/static/media/12112.0fd82743134504335562.jpg",
     "static/media/1113213.jpg": "/visual-novel-engine-v2/static/media/1113213.5cfaa179679a1aaad990.jpg",
     "static/media/12111.jpg": "/visual-novel-engine-v2/static/media/12111.549548716af7bddcf182.jpg",
-    "static/media/photo_2023-07-25_03-02-03.jpg": "/visual-novel-engine-v2/static/media/photo_2023-07-25_03-02-03.d175d388c8ea3ab0e71b.jpg",
+    "static/media/main.jpg": "/visual-novel-engine-v2/static/media/main.d175d388c8ea3ab0e71b.jpg",
     "static/media/1211.jpg": "/visual-novel-engine-v2/static/media/1211.b7031e0ce6654da1a0b6.jpg",
     "static/media/112.jpg": "/visual-novel-engine-v2/static/media/112.6d7304c2feac84f5d598.jpg",
     "static/media/121111.jpg": "/visual-novel-engine-v2/static/media/121111.dc0c3872ec4a486d3962.jpg",
@@ -22,18 +21,18 @@
     "static/media/1113.jpg": "/visual-novel-engine-v2/static/media/1113.53347b8a444cd4639583.jpg",
     "static/media/111.jpg": "/visual-novel-engine-v2/static/media/111.5249184fc9df01aed7f5.jpg",
     "static/media/11132133.jpg": "/visual-novel-engine-v2/static/media/11132133.d2c5dbd59bfedf2285ef.jpg",
-    "static/media/ach1.jpg": "/visual-novel-engine-v2/static/media/ach1.d2c5dbd59bfedf2285ef.jpg",
+    "static/media/about.jpg": "/visual-novel-engine-v2/static/media/about.31b0566a8c730f05d112.jpg",
     "static/media/11.jpg": "/visual-novel-engine-v2/static/media/11.5ac842c7596c297cb138.jpg",
     "static/media/2.jpg": "/visual-novel-engine-v2/static/media/2.ae4cbf9e4310d3f7fb32.jpg",
     "static/media/11133.jpg": "/visual-novel-engine-v2/static/media/11133.6ca0a9ffc52db448e571.jpg",
     "static/media/1111.jpg": "/visual-novel-engine-v2/static/media/1111.7a5ba20b2edc5654f476.jpg",
     "static/media/11132132.jpg": "/visual-novel-engine-v2/static/media/11132132.619c4cd0163a01a6b322.jpg",
     "index.html": "/visual-novel-engine-v2/index.html",
-    "main.f687000d.css.map": "/visual-novel-engine-v2/static/css/main.f687000d.css.map",
-    "main.04eca1e0.js.map": "/visual-novel-engine-v2/static/js/main.04eca1e0.js.map"
+    "main.ab119d81.css.map": "/visual-novel-engine-v2/static/css/main.ab119d81.css.map",
+    "main.affb62ae.js.map": "/visual-novel-engine-v2/static/js/main.affb62ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.f687000d.css",
-    "static/js/main.04eca1e0.js"
+    "static/css/main.ab119d81.css",
+    "static/js/main.affb62ae.js"
   ]
 }
