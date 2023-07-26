@@ -22,7 +22,7 @@ const Game = () => {
 
   //   console.log(imageList[0]);
 
-  //localstorage save
+  //localstorage saves
   //   const [history, updHistory] = useState(
   //     () => localStorage.getItem('contacts') ?? ['p0']
   //   );
