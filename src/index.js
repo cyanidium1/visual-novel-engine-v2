@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/visual-novel-engine">
+    <BrowserRouter basename="/visual-novel-engine-v2/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
