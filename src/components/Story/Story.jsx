@@ -4,7 +4,7 @@ import s from './Story.module.css';
 
 const Story = () => {
   return (
-    <div>
+    <div className={s.box}>
       <StyledLink link={'/'} text={'Menu'} />
       <p className={s.text}>
         You can create and run your visual novel using my code. Change the
