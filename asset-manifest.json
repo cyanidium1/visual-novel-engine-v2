@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visual-novel-engine-v2/static/css/main.f687000d.css",
-    "main.js": "/visual-novel-engine-v2/static/js/main.576c4a95.js",
+    "main.js": "/visual-novel-engine-v2/static/js/main.04eca1e0.js",
     "static/media/ben-redblock-loading.gif": "/visual-novel-engine-v2/static/media/ben-redblock-loading.6e2a614018126bd0d04a.gif",
     "static/media/111321331.jpg": "/visual-novel-engine-v2/static/media/111321331.14134fac082b82c4181d.jpg",
     "static/media/1112.jpg": "/visual-novel-engine-v2/static/media/1112.c5594a09c2b9a63cfe77.jpg",
@@ -30,10 +30,10 @@
     "static/media/11132132.jpg": "/visual-novel-engine-v2/static/media/11132132.619c4cd0163a01a6b322.jpg",
     "index.html": "/visual-novel-engine-v2/index.html",
     "main.f687000d.css.map": "/visual-novel-engine-v2/static/css/main.f687000d.css.map",
-    "main.576c4a95.js.map": "/visual-novel-engine-v2/static/js/main.576c4a95.js.map"
+    "main.04eca1e0.js.map": "/visual-novel-engine-v2/static/js/main.04eca1e0.js.map"
   },
   "entrypoints": [
     "static/css/main.f687000d.css",
-    "static/js/main.576c4a95.js"
+    "static/js/main.04eca1e0.js"
   ]
 }
