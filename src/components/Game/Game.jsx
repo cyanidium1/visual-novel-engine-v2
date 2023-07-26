@@ -4,10 +4,19 @@ import plot from '../../data/plot.json';
 import s from './Game.module.css';
 import Button from 'components/Button/Button';
 
+const images = require.context('../../images', true);
+const imageList = images.keys().map(image => images(image));
+
 const Game = () => {
+  const [height, setHeight] = useState(0);
+
+  // gameplay
   const [frame, changeFrame] = useState('p0');
   const [history, updHistory] = useState(['p0']);
 
+  const scene = plot[frame];
+
+  console.log(imageList[0]);
   //   const [history, updHistory] = useState(
   //     () => localStorage.getItem('contacts') ?? ['p0']
   //   );
@@ -20,9 +29,23 @@ const Game = () => {
   //     }
   //   }, [history]);
 
-  const scene = plot[frame];
+  const bgId = imageList.indexOf(
+    imageList.find(i =>
+      i.includes(`/react-homework-template/static/media/${scene.bg}.`)
+    )
+  );
+
+  console.log(
+    'bgId:' + bgId + 'imglistbg' + imageList[bgId] + 'scene bg' + scene.bg
+  );
 
   function onButtonClick(click) {
+    if (click === 'ptryAgain') {
+      changeFrame('p0');
+      updHistory(['p0']);
+      return;
+    }
+
     changeFrame(click);
     updHistory([...history, click]);
   }
@@ -35,12 +58,14 @@ const Game = () => {
     }
     alert('wanna return up to your birthday?');
   }
-
   return (
     <div
       style={
         scene.bg
-          ? { backgroundImage: `url(${scene.bg})` }
+          ? {
+              backgroundImage: `url(${imageList[bgId]})`,
+              backgroundPosition: 'center',
+            }
           : { backgroundColor: 'black' }
       }
       className={s.box}
@@ -49,7 +74,24 @@ const Game = () => {
       <div className={s.undo}>
         <Button action={ctrlZ} text={'undo'} />
       </div>
-      <div className={s.textButtons}>
+      <div style={{ bottom: height + 'px' }} className={s.textButtons}>
+        <div className={s.moveBtns}>
+          <button onClick={() => setHeight(height + 10)} className={s.moveBtn}>
+            /\
+          </button>
+          <button onClick={() => setHeight(height - 10)} className={s.moveBtn}>
+            \/
+          </button>
+        </div>
+
+        {/* <div>
+          <span>
+            {scene.f1}
+            {scene.f2}
+            {scene.f3}
+          </span>
+        </div> */}
+
         <p className={s.text}>{scene.p}</p>
         <div className={s.btns}>
           {scene.b1 && (
