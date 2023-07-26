@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/visual-novel-engine-v2/static/css/main.ab119d81.css",
-    "main.js": "/visual-novel-engine-v2/static/js/main.affb62ae.js",
+    "main.css": "/visual-novel-engine-v2/static/css/main.e5724aed.css",
+    "main.js": "/visual-novel-engine-v2/static/js/main.7a69f913.js",
     "static/media/111321331.jpg": "/visual-novel-engine-v2/static/media/111321331.14134fac082b82c4181d.jpg",
     "static/media/1112.jpg": "/visual-novel-engine-v2/static/media/1112.c5594a09c2b9a63cfe77.jpg",
     "static/media/0.jpg": "/visual-novel-engine-v2/static/media/0.be9d03ec9981a2159cd9.jpg",
@@ -28,11 +28,11 @@
     "static/media/1111.jpg": "/visual-novel-engine-v2/static/media/1111.7a5ba20b2edc5654f476.jpg",
     "static/media/11132132.jpg": "/visual-novel-engine-v2/static/media/11132132.619c4cd0163a01a6b322.jpg",
     "index.html": "/visual-novel-engine-v2/index.html",
-    "main.ab119d81.css.map": "/visual-novel-engine-v2/static/css/main.ab119d81.css.map",
-    "main.affb62ae.js.map": "/visual-novel-engine-v2/static/js/main.affb62ae.js.map"
+    "main.e5724aed.css.map": "/visual-novel-engine-v2/static/css/main.e5724aed.css.map",
+    "main.7a69f913.js.map": "/visual-novel-engine-v2/static/js/main.7a69f913.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab119d81.css",
-    "static/js/main.affb62ae.js"
+    "static/css/main.e5724aed.css",
+    "static/js/main.7a69f913.js"
   ]
 }
