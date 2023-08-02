@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const images = require.context('../../images', true);
 const imageList = images.keys().map(image => images(image));
 
-const Game = () => {
+const Game = ({ch}) => {
   //other
   const [height, setHeight] = useState(0);
   const notify = text => toast(text);
@@ -19,6 +19,15 @@ const Game = () => {
   const [history, updHistory] = useState(['p0']);
 
   const scene = plot[frame];
+
+  const adaptive = {
+text: {
+  fontSize: `${24 * ch}px`
+}
+  }
+
+  const styleSheet = ch === 1 ? null : adaptive
+
 
   //   console.log(imageList[0]);
 
@@ -68,6 +77,7 @@ const Game = () => {
         scene.bg
           ? {
               backgroundImage: `url(${imageList[bgId]})`,
+              // backgroundImage: require('../../images/1.jpg'),
               backgroundPosition: 'center',
             }
           : { backgroundColor: 'black' }
@@ -86,19 +96,19 @@ const Game = () => {
         pauseOnHover
         theme="dark"
       />
-      <StyledLink width={'100px'} link={'/'} text={'Menu'} />
+      <StyledLink width={`${100 * ch}px`} link={'/'} text={'Menu'} />
       <div className={s.undo}>
-        <Button action={ctrlZ} text={'undo'} />
+        <Button action={ctrlZ} text={'undo'} fz={24*ch}/>
       </div>
       <div style={{ bottom: height + 'px' }} className={s.textButtons}>
-        <div className={s.moveBtns}>
+        {ch === 1 && <div className={s.moveBtns}>
           <button onClick={() => setHeight(height + 10)} className={s.moveBtn}>
             /\
           </button>
           <button onClick={() => setHeight(height - 10)} className={s.moveBtn}>
             \/
           </button>
-        </div>
+        </div>}
 
         {/* <div>
           <span>
@@ -108,16 +118,16 @@ const Game = () => {
           </span>
         </div> */}
 
-        <p className={s.text}>{scene.p}</p>
+        <p className={s.text} style={styleSheet?.text}>{scene.p}</p>
         <div className={s.btns}>
           {scene.b1 && (
-            <Button text={scene.b1} action={onButtonClick} click={scene.f1} />
+            <Button text={scene.b1} action={onButtonClick} click={scene.f1} fz={24*ch}/>
           )}
           {scene.b2 && (
-            <Button text={scene.b2} action={onButtonClick} click={scene.f2} />
+            <Button text={scene.b2} action={onButtonClick} click={scene.f2} fz={24*ch} />
           )}
           {scene.b3 && (
-            <Button text={scene.b3} action={onButtonClick} click={scene.f3} />
+            <Button text={scene.b3} action={onButtonClick} click={scene.f3} fz={24*ch} />
           )}
         </div>
       </div>

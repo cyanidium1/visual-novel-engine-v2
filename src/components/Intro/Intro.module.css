@@ -6,6 +6,7 @@
   background-image: url('../../images/intro.jpg');
   background-position: -233px -160px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .backBtn {
@@ -25,7 +26,6 @@
   justify-content: center;
   position: relative;
   top: 430px;
-  /* height: 600px; */
   height: 600px;
   color: #feda4a;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -43,8 +43,21 @@
   animation: crawl 120s linear;
 }
 
+.crawlAdaptive {
+  position: relative;
+  top: 99999px;
+  transform-origin: 50% 100%;
+  animation: crawlAdaptive 120s linear;
+}
+
 .text {
   font-size: 48px;
+  line-height: 1.6;
+  background-color: #1f1f1fd5;
+}
+.textAdaptive {
+  width: 800px;
+  font-size: 42px;
   line-height: 1.6;
   background-color: #1f1f1fd5;
 }
@@ -53,6 +66,17 @@
   0% {
     top: -100px;
     transform: rotateX(22deg) translateZ(0);
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(22deg) translateZ(-2250px);
+  }
+}
+
+@keyframes crawlAdaptive {
+  0% {
+    top: -300px;
+    transform: rotateX(22deg) translateZ(0px);
   }
   100% {
     top: -6000px;

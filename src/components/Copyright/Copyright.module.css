@@ -1,8 +1,11 @@
 .box {
+  margin: 0 auto;
   padding: 5px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 790px;
+  background-color: #cacaca15;
 }
 .text {
   color: rgba(255, 255, 255, 0.199);

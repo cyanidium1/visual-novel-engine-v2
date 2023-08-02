@@ -3,9 +3,15 @@ import React from 'react';
 import s from './Menu.module.css';
 import Copyright from 'components/Copyright/Copyright';
 
-const Menu = () => {
+const Menu = ({ch}) => {
+  // mobile 
+const isVerticalOrient = (window.screen.height / window.screen.width) > 1.2
+
+
+
   return (
     <div className={s.box}>
+      {isVerticalOrient && <div className={s.mobile}>Rotate your phone</div>}
       <ul className={s.list}>
         <li>
           <StyledLink link={'/intro'} text={'Play!'} />
@@ -14,7 +20,7 @@ const Menu = () => {
           <StyledLink link={'/about'} text={'About'} />
         </li>
         <li>
-          <StyledLink link={'/story'} text={'Create VN'} />
+          <StyledLink link={'/story'} text={'Create VN'}  />
         </li>
       </ul>
       <div className={s.cr}>

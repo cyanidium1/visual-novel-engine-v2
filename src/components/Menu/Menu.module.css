@@ -11,3 +11,7 @@
   position: absolute;
   bottom: 0;
 }
+.mobile {
+  margin: 0 auto;
+  width: fit-content;
+}

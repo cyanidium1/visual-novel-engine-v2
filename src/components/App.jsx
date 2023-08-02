@@ -7,9 +7,14 @@ import Game from './Game/Game';
 import Story from './Story/Story';
 
 export const App = () => {
+  //adaptive sht
+  const windowHeight = window.screen.height >= 600 ? 600 : window.screen.height
+  const coefH = windowHeight / 600 >= 1 ? 1 : windowHeight / 600
+
   const gameDim = {
-    width: 800,
-    height: 600,
+    //also adaptive
+    width: windowHeight * 1.333,
+    height: windowHeight > 600 ? 600 : windowHeight,
     margin: '0 auto',
     padding: 0,
     backgroundImage: `url(${bgi})`,
@@ -19,11 +24,11 @@ export const App = () => {
   return (
     <div style={gameDim}>
       <Routes>
-        <Route path="*" element={<Menu />} />
-        <Route path="/intro" element={<Intro />} />
-        <Route path="/game" element={<Game />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/story" element={<Story />} />
+        <Route path="*" element={<Menu ch={coefH}/>} />
+        <Route path="/intro" element={<Intro ch={coefH}/>} />
+        <Route path="/game" element={<Game ch={coefH}/>} />
+        <Route path="/about" element={<About ch={coefH}/>} />
+        <Route path="/story" element={<Story ch={coefH}/>} />
       </Routes>
     </div>
   );
