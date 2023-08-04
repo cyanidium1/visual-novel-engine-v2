@@ -1,4 +1,6 @@
 {
+  "info": "This is a 'visual novel' type of game. The player is asked to choose different story options, search for items and make decisions that determine the plot and ending of the game. The photos used here were taken by the author of the project in 2016-2018 in the Kyiv metro. Events are based on real stories. Enjoy the game!",
+  "intro": "Since childhood you have been lured by the darkness of metro tunnels. Riding underground you have often noticed various branches in the tunnels. Spending hours in front of the computer you found a lot of information about the capital's underground and decided to move to the active phase of research - to climb inside these tunnels!",
   "p0": {
     "p": "You need to decide how to get into the tunnels. There are two main ways: through the ventilation shaft or through the \"portal\" (from the station).",
     "b1": "Try it through the ventilation",
