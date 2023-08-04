@@ -1,28 +1,39 @@
 import React from 'react';
 import s from './Copyright.module.css';
+import iglogo from '../../ui/instagram-seeklogo.com.svg'
+import emlogo from '../../ui/email-svgrepo-com.svg'
+import ghlogo from '../../ui/github-142-svgrepo-com.svg'
 
 const Copyright = () => {
   return (
     <div className={s.box}>
       <p className={s.text}>photos, idea and code by cyanidium</p>
-      <a className={s.text} href="mailto:cyanidium1@gmail.com">
-        email
+      <a className={s.link} 
+      href="mailto:cyanidium1@gmail.com">
+        <img src={emlogo} 
+        className={s.svg}
+        alt='email'></img>
       </a>
       <a
+        className={s.link}
         target="_blank"
         rel="noreferrer"
-        className={s.text}
         href="http://instagram.com/cyanidium"
       >
-        instagram
+        <img src={iglogo} 
+        className={s.svg}
+        alt='instagram'></img>
       </a>
       <a
+        className={s.link}
         target="_blank"
         rel="noreferrer"
-        className={s.text}
         href="https://github.com/cyanidium1/visual-novel-engine-v2"
       >
-        code
+       
+        <img src={ghlogo}
+         className={s.svg}
+        alt='ghub'></img>
       </a>
     </div>
   );

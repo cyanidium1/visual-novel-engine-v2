@@ -2,10 +2,10 @@
   margin: 0 auto;
   padding: 5px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  width: 790px;
   background-color: #cacaca15;
+  align-items: center;
+  justify-content: center;
 }
 .text {
   color: rgba(255, 255, 255, 0.199);
@@ -14,4 +14,16 @@
 }
 .text:hover {
   color: rgba(255, 255, 255, 0.582);
+}
+.svg {
+  max-width: 30px;
+  max-height: 30px;
+
+}
+.svg:hover {
+  fill: white;
+}
+.link {
+  height: 30px;
+  margin: 0 3px;
 }

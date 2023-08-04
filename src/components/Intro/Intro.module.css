@@ -75,11 +75,11 @@
 
 @keyframes crawlAdaptive {
   0% {
-    top: -300px;
-    transform: rotateX(22deg) translateZ(0px);
+    top: -400px;
+    transform: rotateX(20deg) translateZ(0px);
   }
   100% {
-    top: -6000px;
-    transform: rotateX(22deg) translateZ(-2250px);
+    top: -6400px;
+    transform: rotateX(20deg) translateZ(-2150px);
   }
 }

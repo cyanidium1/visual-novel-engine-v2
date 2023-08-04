@@ -11,7 +11,7 @@ const isVerticalOrient = (window.screen.height / window.screen.width) > 1.2
 
   return (
     <div className={s.box}>
-      {isVerticalOrient && <div className={s.mobile}>Rotate your phone</div>}
+      {isVerticalOrient && <div className={s.mobile}>Rotate your phone & refresh</div>}
       <ul className={s.list}>
         <li>
           <StyledLink link={'/intro'} text={'Play!'} />
