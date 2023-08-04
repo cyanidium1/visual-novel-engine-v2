@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/visual-novel-engine-v2/static/css/main.08240619.css",
-    "main.js": "/visual-novel-engine-v2/static/js/main.557cce81.js",
+    "main.css": "/visual-novel-engine-v2/static/css/main.d86c234d.css",
+    "main.js": "/visual-novel-engine-v2/static/js/main.85a0c684.js",
     "static/media/111321331.jpg": "/visual-novel-engine-v2/static/media/111321331.14134fac082b82c4181d.jpg",
     "static/media/1112.jpg": "/visual-novel-engine-v2/static/media/1112.c5594a09c2b9a63cfe77.jpg",
     "static/media/create.jpg": "/visual-novel-engine-v2/static/media/create.4e873c1812d63e7db752.jpg",
@@ -28,12 +28,15 @@
     "static/media/11133.jpg": "/visual-novel-engine-v2/static/media/11133.6ca0a9ffc52db448e571.jpg",
     "static/media/1111.jpg": "/visual-novel-engine-v2/static/media/1111.7a5ba20b2edc5654f476.jpg",
     "static/media/11132132.jpg": "/visual-novel-engine-v2/static/media/11132132.619c4cd0163a01a6b322.jpg",
+    "static/media/instagram-seeklogo.com.svg": "/visual-novel-engine-v2/static/media/instagram-seeklogo.com.c0113239bc87d217189205448af0e84a.svg",
+    "static/media/github-142-svgrepo-com.svg": "/visual-novel-engine-v2/static/media/github-142-svgrepo-com.077a3fdbee9cbcbfd1a2d29bb167cece.svg",
+    "static/media/email-svgrepo-com.svg": "/visual-novel-engine-v2/static/media/email-svgrepo-com.4da0c4c4b335ec5b53295022af2899fe.svg",
     "index.html": "/visual-novel-engine-v2/index.html",
-    "main.08240619.css.map": "/visual-novel-engine-v2/static/css/main.08240619.css.map",
-    "main.557cce81.js.map": "/visual-novel-engine-v2/static/js/main.557cce81.js.map"
+    "main.d86c234d.css.map": "/visual-novel-engine-v2/static/css/main.d86c234d.css.map",
+    "main.85a0c684.js.map": "/visual-novel-engine-v2/static/js/main.85a0c684.js.map"
   },
   "entrypoints": [
-    "static/css/main.08240619.css",
-    "static/js/main.557cce81.js"
+    "static/css/main.d86c234d.css",
+    "static/js/main.85a0c684.js"
   ]
 }
