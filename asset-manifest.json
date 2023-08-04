@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visual-novel-engine-v2/static/css/main.d86c234d.css",
-    "main.js": "/visual-novel-engine-v2/static/js/main.85a0c684.js",
+    "main.js": "/visual-novel-engine-v2/static/js/main.c77b97e5.js",
     "static/media/111321331.jpg": "/visual-novel-engine-v2/static/media/111321331.14134fac082b82c4181d.jpg",
     "static/media/1112.jpg": "/visual-novel-engine-v2/static/media/1112.c5594a09c2b9a63cfe77.jpg",
     "static/media/create.jpg": "/visual-novel-engine-v2/static/media/create.4e873c1812d63e7db752.jpg",
@@ -33,10 +33,10 @@
     "static/media/email-svgrepo-com.svg": "/visual-novel-engine-v2/static/media/email-svgrepo-com.4da0c4c4b335ec5b53295022af2899fe.svg",
     "index.html": "/visual-novel-engine-v2/index.html",
     "main.d86c234d.css.map": "/visual-novel-engine-v2/static/css/main.d86c234d.css.map",
-    "main.85a0c684.js.map": "/visual-novel-engine-v2/static/js/main.85a0c684.js.map"
+    "main.c77b97e5.js.map": "/visual-novel-engine-v2/static/js/main.c77b97e5.js.map"
   },
   "entrypoints": [
     "static/css/main.d86c234d.css",
-    "static/js/main.85a0c684.js"
+    "static/js/main.c77b97e5.js"
   ]
 }
