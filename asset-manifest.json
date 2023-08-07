@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visual-novel-engine-v2/static/css/main.d86c234d.css",
-    "main.js": "/visual-novel-engine-v2/static/js/main.c77b97e5.js",
+    "main.js": "/visual-novel-engine-v2/static/js/main.dfcfd2fd.js",
     "static/media/111321331.jpg": "/visual-novel-engine-v2/static/media/111321331.14134fac082b82c4181d.jpg",
     "static/media/1112.jpg": "/visual-novel-engine-v2/static/media/1112.c5594a09c2b9a63cfe77.jpg",
     "static/media/create.jpg": "/visual-novel-engine-v2/static/media/create.4e873c1812d63e7db752.jpg",
@@ -15,9 +15,12 @@
     "static/media/12111.jpg": "/visual-novel-engine-v2/static/media/12111.549548716af7bddcf182.jpg",
     "static/media/main.jpg": "/visual-novel-engine-v2/static/media/main.d175d388c8ea3ab0e71b.jpg",
     "static/media/1211.jpg": "/visual-novel-engine-v2/static/media/1211.b7031e0ce6654da1a0b6.jpg",
+    "static/media/b1.jpg": "/visual-novel-engine-v2/static/media/b1.b6d429517cbd284d812a.jpg",
     "static/media/112.jpg": "/visual-novel-engine-v2/static/media/112.6d7304c2feac84f5d598.jpg",
     "static/media/121111.jpg": "/visual-novel-engine-v2/static/media/121111.dc0c3872ec4a486d3962.jpg",
+    "static/media/b11.jpg": "/visual-novel-engine-v2/static/media/b11.9015a96e20c1829b39a1.jpg",
     "static/media/11131.jpg": "/visual-novel-engine-v2/static/media/11131.5e24462b5b8f19b23266.jpg",
+    "static/media/b113.jpg": "/visual-novel-engine-v2/static/media/b113.406f2dcda3e63062c3a8.jpg",
     "static/media/1.jpg": "/visual-novel-engine-v2/static/media/1.db67806d49e795748eea.jpg",
     "static/media/1113.jpg": "/visual-novel-engine-v2/static/media/1113.53347b8a444cd4639583.jpg",
     "static/media/111.jpg": "/visual-novel-engine-v2/static/media/111.5249184fc9df01aed7f5.jpg",
@@ -33,10 +36,10 @@
     "static/media/email-svgrepo-com.svg": "/visual-novel-engine-v2/static/media/email-svgrepo-com.4da0c4c4b335ec5b53295022af2899fe.svg",
     "index.html": "/visual-novel-engine-v2/index.html",
     "main.d86c234d.css.map": "/visual-novel-engine-v2/static/css/main.d86c234d.css.map",
-    "main.c77b97e5.js.map": "/visual-novel-engine-v2/static/js/main.c77b97e5.js.map"
+    "main.dfcfd2fd.js.map": "/visual-novel-engine-v2/static/js/main.dfcfd2fd.js.map"
   },
   "entrypoints": [
     "static/css/main.d86c234d.css",
-    "static/js/main.c77b97e5.js"
+    "static/js/main.dfcfd2fd.js"
   ]
 }
