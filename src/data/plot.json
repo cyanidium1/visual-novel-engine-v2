@@ -12,7 +12,7 @@
     "bg": "0"
   },
   "p1": {
-    "p": "You made the decision to climb through a ventilation shaft located in a secluded courtyard between panel houses. However, you find out that the door is locked!",
+    "p": "You decided to climb through a ventilation shaft located in a secluded courtyard between panel houses. However, you find out that the door is locked!",
     "b1": "Break the lock on the door and get in!",
     "b2": "Try to get in through the ventilation grill",
     "b3": "Change your mind and try from the station",
@@ -22,8 +22,8 @@
     "bg": "1"
   },
   "p11": {
-    "p": "You broke the lock on the door with a crowbar and went inside. There was a gaping chasm of several tens of meters beneath your feet. Also you noticed a small white box with a flashing red LED next to the door....",
-    "b1": "Start the descent!",
+    "p": "You broke the lock on the door with and went inside. There was a gaping chasm of several tens of meters beneath your feet. Also you noticed a small white box with a flashing red LED next to the door....",
+    "b1": "Start the descent",
     "b2": "Wait 30 minutes near the ventilation shaft for the sake of caution",
     "b3": "",
     "f1": "p111",
@@ -62,7 +62,7 @@
     "bg": "112"
   },
   "p1112": {
-    "p": "You flashed down the remaining steps into the approach tunnel to the tracks bypassing the huge doors and fans.",
+    "p": "You flashed down the remaining steps into the approach tunnel to the tracks bypassing the huge doors.",
     "b1": "Next",
     "b2": "",
     "b3": "",
@@ -182,12 +182,12 @@
     "bg": "11132132"
   },
   "p111321331": {
-    "p": "You have found an entrance to the abandoned bunker! \n(to be continued...)",
-    "b1": "To the beginning",
-    "b2": "",
+    "p": "You have found an entrance to the abandoned bunker! Unfortunately there was too much water",
+    "b1": "Try to swim",
+    "b2": "Try to look for other variants",
     "b3": "",
-    "f1": "ptryAgain",
-    "f2": "",
+    "f1": "pb2",
+    "f2": "pb1",
     "f3": "",
     "bg": "111321331"
   },
@@ -290,5 +290,35 @@
     "f2": "",
     "f3": "",
     "bg": "2"
+  },
+  "pb1": {
+    "p": "You found a small room that turned out to be a pumping station. You need to find a way to turn them on.",
+    "b1": "jpg",
+    "b2": "",
+    "b3": "",
+    "f1": "pb11",
+    "f2": "",
+    "f3": "",
+    "bg": "b1"
+  },
+  "pb11": {
+    "p": "The pumps were running loud. Someone could hear the sound, so you hurried on. Find a way to get inside.",
+    "b1": "",
+    "b2": "jpgvent",
+    "b3": "",
+    "f1": "",
+    "f2": "pb113",
+    "f3": "",
+    "bg": "b11"
+  },
+  "pb113": {
+    "p": "You remembered what you were taught in the Half-Life game and climbed through the ventilation, after which you ended up in the filter-ventilation room. (to be continued)",
+    "b1": "Try again!",
+    "b2": "",
+    "b3": "",
+    "f1": "ptryAgain",
+    "f2": "",
+    "f3": "",
+    "bg": "b113"
   }
 }
