@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const images = require.context('../../images', true);
 const imageList = images.keys().map(image => images(image));
 
-const Game = ({ch}) => {
+const Game = ({ ch }) => {
   //other
   const [height, setHeight] = useState(0);
   const notify = text => toast(text);
@@ -21,13 +21,12 @@ const Game = ({ch}) => {
   const scene = plot[frame];
 
   const adaptive = {
-text: {
-  fontSize: `${24 * ch}px`
-}
-  }
+    text: {
+      fontSize: `${24 * ch}px`,
+    },
+  };
 
-  const styleSheet = ch === 1 ? null : adaptive
-
+  const styleSheet = ch === 1 ? null : adaptive;
 
   //   console.log(imageList[0]);
 
@@ -98,17 +97,61 @@ text: {
       />
       <StyledLink width={`${100 * ch}px`} link={'/'} text={'Menu'} />
       <div className={s.undo}>
-        <Button action={ctrlZ} text={'undo'} fz={24*ch}/>
+        <Button action={ctrlZ} text={'undo'} fz={24 * ch} />
       </div>
+      {scene.hb1 && (
+        <div
+          className={s.hiddenBtn}
+          style={{
+            width: scene.hb1.width,
+            height: scene.hb1.height,
+            top: scene.hb1.top,
+            left: scene.hb1.left,
+          }}
+          onClick={() => onButtonClick(scene.hb1.hf1)}
+        ></div>
+      )}
+      {scene.hb2 && (
+        <div
+          className={s.hiddenBtn}
+          style={{
+            width: scene.hb2.width,
+            height: scene.hb2.height,
+            top: scene.hb2.top,
+            left: scene.hb2.left,
+          }}
+          onClick={() => onButtonClick(scene.hb2.hf2)}
+        ></div>
+      )}
+      {scene.hb3 && (
+        <div
+          className={s.hiddenBtn}
+          style={{
+            width: scene.hb3.width,
+            height: scene.hb3.height,
+            top: scene.hb3.top,
+            left: scene.hb3.left,
+          }}
+          onClick={() => onButtonClick(scene.hb3.hf3)}
+        ></div>
+      )}
       <div style={{ bottom: height + 'px' }} className={s.textButtons}>
-        {ch === 1 && <div className={s.moveBtns}>
-          <button onClick={() => setHeight(height + 10)} className={s.moveBtn}>
-            /\
-          </button>
-          <button onClick={() => setHeight(height - 10)} className={s.moveBtn}>
-            \/
-          </button>
-        </div>}
+        {ch === 1 && (
+          <div className={s.moveBtns}>
+            <button
+              onClick={() => setHeight(height + 10)}
+              className={s.moveBtn}
+            >
+              /\
+            </button>
+            <button
+              onClick={() => setHeight(height - 10)}
+              className={s.moveBtn}
+            >
+              \/
+            </button>
+          </div>
+        )}
 
         {/* <div>
           <span>
@@ -118,16 +161,33 @@ text: {
           </span>
         </div> */}
 
-        <p className={s.text} style={styleSheet?.text}>{scene.p}</p>
+        <p className={s.text} style={styleSheet?.text}>
+          {scene.p}
+        </p>
         <div className={s.btns}>
           {scene.b1 && (
-            <Button text={scene.b1} action={onButtonClick} click={scene.f1} fz={24*ch}/>
+            <Button
+              text={scene.b1}
+              action={onButtonClick}
+              click={scene.f1}
+              fz={24 * ch}
+            />
           )}
           {scene.b2 && (
-            <Button text={scene.b2} action={onButtonClick} click={scene.f2} fz={24*ch} />
+            <Button
+              text={scene.b2}
+              action={onButtonClick}
+              click={scene.f2}
+              fz={24 * ch}
+            />
           )}
           {scene.b3 && (
-            <Button text={scene.b3} action={onButtonClick} click={scene.f3} fz={24*ch} />
+            <Button
+              text={scene.b3}
+              action={onButtonClick}
+              click={scene.f3}
+              fz={24 * ch}
+            />
           )}
         </div>
       </div>

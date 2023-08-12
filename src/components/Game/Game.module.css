@@ -36,3 +36,23 @@
   display: flex;
   justify-content: space-around;
 }
+.hiddenBtn {
+  position: absolute;
+  display: inline-block;
+  /* width: 60px;
+  height: 124px;
+  top: 371px;
+  left: 357px; */
+
+  /* background-color: #000000; */
+
+  z-index: 2;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.hiddenBtn:hover {
+  border: 2px solid red;
+}

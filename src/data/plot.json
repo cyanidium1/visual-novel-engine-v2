@@ -13,13 +13,21 @@
   },
   "p1": {
     "p": "You decided to climb through a ventilation shaft located in a secluded courtyard between panel houses. However, you find out that the door is locked!",
-    "b1": "Break the lock on the door and get in!",
-    "b2": "Try to get in through the ventilation grill",
-    "b3": "Change your mind and try from the station",
-    "f1": "p11",
-    "f2": "p12",
-    "f3": "p2",
-    "bg": "1"
+    "bg": "1",
+    "hb1": {
+      "width": "60px",
+      "height": "114px",
+      "top": "366px",
+      "left": "357px",
+      "hf1": "p11"
+    },
+    "hb2": {
+      "width": "313px",
+      "height": "124px",
+      "top": "214px",
+      "left": "257px",
+      "hf2": "p12"
+    }
   },
   "p11": {
     "p": "You broke the lock on the door with and went inside. There was a gaping chasm of several tens of meters beneath your feet. Also you noticed a small white box with a flashing red LED next to the door....",
@@ -182,7 +190,7 @@
     "bg": "11132132"
   },
   "p111321331": {
-    "p": "You have found an entrance to the abandoned bunker! Unfortunately there was too much water",
+    "p": "You have found an entrance to the abandoned bunker! Unfortunately there was too much water...",
     "b1": "Try to swim",
     "b2": "Try to look for other variants",
     "b3": "",
@@ -217,7 +225,7 @@
     "b2": "Go left toward the new square tunnels",
     "b3": "",
     "f1": "p12111",
-    "f2": "p12112",
+    "f2": "p121111",
     "f3": "",
     "bg": "1211"
   },
@@ -293,32 +301,171 @@
   },
   "pb1": {
     "p": "You found a small room that turned out to be a pumping station. You need to find a way to turn them on.",
-    "b1": "jpg",
+    "b1": "",
     "b2": "",
     "b3": "",
     "f1": "pb11",
     "f2": "",
     "f3": "",
-    "bg": "b1"
+    "bg": "b1",
+    "hb1": {
+      "width": "26px",
+      "height": "43px",
+      "top": "273px",
+      "left": "640px",
+      "hf1": "pb11"
+    }
   },
   "pb11": {
     "p": "The pumps were running loud. Someone could hear the sound, so you hurried on. Find a way to get inside.",
     "b1": "",
-    "b2": "jpgvent",
+    "b2": "",
     "b3": "",
     "f1": "",
-    "f2": "pb113",
+    "f2": "",
     "f3": "",
-    "bg": "b11"
+    "bg": "b11",
+    "hb1": {
+      "width": "114px",
+      "height": "173px",
+      "top": "321px",
+      "left": "129px",
+      "hf1": "pb114"
+    },
+    "hb2": {
+      "width": "170px",
+      "height": "198px",
+      "top": "167px",
+      "left": "246px",
+      "hf2": "pb113"
+    },
+    "hb3": {
+      "width": "89px",
+      "height": "209px",
+      "top": "268px",
+      "left": "706px",
+      "hf3": "pb115"
+    }
   },
   "pb113": {
     "p": "You remembered what you were taught in the Half-Life game and climbed through the ventilation, after which you ended up in the filter-ventilation room. (to be continued)",
+    "b1": "Continue",
+    "b2": "",
+    "b3": "",
+    "f1": "pb1131",
+    "f2": "",
+    "f3": "",
+    "bg": "b113"
+  },
+  "pb114": {
+    "p": "You entered the filters room. There was an alarm on the door! Where to go?",
+    "b1": "",
+    "b2": "",
+    "b3": "",
+    "f1": "",
+    "f2": "",
+    "f3": "",
+    "bg": "b114",
+    "hb1": {
+      "width": "70px",
+      "height": "90px",
+      "top": "253px",
+      "left": "508px",
+      "hf1": "pb1141"
+    },
+    "hb2": {
+      "width": "154px",
+      "height": "203px",
+      "top": "283px",
+      "left": "10px",
+      "hf2": "pb1142"
+    },
+    "hb3": {
+      "width": "106px",
+      "height": "348px",
+      "top": "123px",
+      "left": "207px",
+      "hf3": "pb1143"
+    }
+  },
+  "pb115": {
+    "p": "You decided to turn back. Unfortunately, the noise from the operation of the pumps was heard by the workers, who immediately packed you up and handed over to the police. ",
     "b1": "Try again!",
     "b2": "",
     "b3": "",
     "f1": "ptryAgain",
     "f2": "",
     "f3": "",
-    "bg": "b113"
+    "bg": "1111"
+  },
+  "pb1143": {
+    "p": "You decided to hide behind the barrels. It was good idea cos in 10 minutes guardians came and checked the object. You waited for them to leave and...",
+    "b1": "Continue",
+    "b2": "",
+    "b3": "",
+    "f1": "pb1131",
+    "f2": "",
+    "f3": "",
+    "bg": "b1143"
+  },
+  "pb1141": {
+    "p": "You decided to continue exploration. Unfortunately, after a while security came and caught you.",
+    "b1": "Try again!",
+    "b2": "",
+    "b3": "",
+    "f1": "ptryAgain",
+    "f2": "",
+    "f3": "",
+    "bg": "1111"
+  },
+  "pb1142": {
+    "p": "Without thinking twice, you jumped into a dark passage. Footsteps were already heard behind. The passage led you out of the bunker to the rails. Unfortunately, it was not possible to inspect the bunker completely this time.",
+    "b1": "Continue",
+    "b2": "",
+    "b3": "",
+    "f1": "p1211",
+    "f2": "",
+    "f3": "",
+    "bg": "b1142"
+  },
+  "pb1131": {
+    "p": "You entered the main block of the bunker.",
+    "b1": "Continue",
+    "b2": "",
+    "b3": "",
+    "f1": "pb11311",
+    "f2": "",
+    "f3": "",
+    "bg": "b1131"
+  },
+  "pb11311": {
+    "p": "You started walking through the labyrinths of tunnels...",
+    "b1": "Continue",
+    "b2": "",
+    "b3": "",
+    "f1": "pb113111",
+    "f2": "",
+    "f3": "",
+    "bg": "b11311"
+  },
+  "pb113111": {
+    "p": "You came to the (to be continued)",
+    "b1": "",
+    "b2": "",
+    "b3": "",
+    "f1": "pb113111",
+    "f2": "",
+    "f3": "",
+    "bg": "b113111"
+  },
+  "pb2": {
+    "p": "You froze to death cos water underground is too cold.",
+    "b1": "Try again!",
+    "b2": "",
+    "b3": "",
+    "f1": "ptryAgain",
+    "f2": "",
+    "f3": "",
+    "bg": "11132132"
   }
 }
